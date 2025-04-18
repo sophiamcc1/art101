@@ -7,3 +7,10 @@
     border: solid 1px #cd5172;
     background-color: #e184a9;
   }
+  
+  img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
