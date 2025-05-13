@@ -6,41 +6,34 @@ Author: Sophia McClanahan
 Date: 12 May 2025
 */
 
-//add button to challenge section
-$("#challenge").append("<button id='button-challenge'>Make Special</button>");
 
-//add a click listener to the challenge button
-$("#button-challenge").click(function(){
-    //now add (or subtract) the "special" class to the section
-    $("#challenge").toggleClass("special");
-});
+//Creating buttons that change the css of the page 
 
+    //Button 1
+        // adds a button for subject section and gives the button the id "button-subject"
+            $("#subject").append("<button id='button-subject'> Change it Up? </button>");
 
-//add button to problem section
-$("#problems").append("<button id='button-problems'>Make Special</button>");
-
-//add a click listener to the problem button
-$("#button-problems").click(function(){
-    //now add (or subtract) the "special" class to the section
-    $("#problems").toggleClass("special");
-});
+        // adds a click listener to the subject button and uses a function to add (or subtract) the "special" class to the section
+            $("#button-subject").click(function(){
+                $("#subject").toggleClass("special");
+            });
 
 
-//add button to refkection section
-$("#reflection").append("<button id='button-reflection'>Make Special</button>");
+    //Button 2
+        // adds a button for challenges section and gives the button the id "button-challenges"
+             $("#challenges").append("<button id='button-challenges'> Change it Up? </button>");
 
-//add a click listener to the result button
-$("#button-reflection").click(function(){
-    //now add (or subtract) the "special" class to the section
-    $("#reflection").toggleClass("special");
-});
+        // adds a click listener to the challenges button and uses a function to add (or subtract) the "special" class to the section
+            $("#button-challenges").click(function(){
+                $("#challenges").toggleClass("special");
+             });
 
 
-//add button to results section
-$("#results").append("<button id='button-results'>Make Special</button>");
+    //Button 3
+        // adds a button for results section and gives the button the id "button-results"
+            $("#results").append("<button id='button-results'> Change it Up? </button>");
 
-//add a click listener to the results button
-$("#button-results").click(function(){
-    //now add (or subtract) the "special" class to the section
-    $("#results").toggleClass("special");
-});
+        // adds a click listener to the results button and uses a function to add (or subtract) the "special" class to the section
+             $("#button-results").click(function(){
+                $('#results').toggleClass("special");
+            });

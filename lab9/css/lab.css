@@ -1,20 +1,100 @@
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #cd5172;
-    background-color: #e184a9;
-  }
-  
-  img {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-  }
-
-  .special {
-    background-color: rgb(255, 203, 223);
-    border: dotted 50px rgb(122, 0, 59);
-    color: rgb(245, 131, 207);
+.special {
+     background-color: rgb(255, 203, 223);
+    border: dotted 10px rgb(255, 80, 165);
+    color: rgb(139, 3, 69);
     font-weight: bold;
 }
+
+body{
+    background-color: #ff91bb;
+                 margin: 20px;
+            padding: 20px;
+            border: solid 10px #ff488e;
+             background-color: #ffbfd8;
+  }
+  
+/*this is the css for the questions*/
+
+        #results {
+             padding: 10px;
+             margin-bottom: 10px;
+            background-color: #e184a9;
+        }
+
+        #subject {
+             padding: 10px;
+             margin-bottom: 10px;
+            background-color: #e184a9;
+        }
+
+        #challenges {
+             padding: 10px;
+             margin-bottom: 10px;
+            background-color: #e184a9;
+        }
+  
+
+
+/*make the buttons have a click effect and changes the css of the button*/
+
+        #button-subject {
+        background-color: #c073b7;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+        }
+
+        #button-challenges {
+        background-color: #c073b7;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+        }
+
+        #button-results {
+        background-color: #c073b7;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+        }
+
+
+
+/*css for the images in the html*/
+
+        .image {
+        display: block;
+        margin: auto;
+        width: 60%;
+        }
+
+        .images-group {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: solid 1px #aa80c3;
+            background-color: #aa80c3;
+            border: solid 10px rgb(198, 169, 249);
+        }
+
+        h1 {
+            font-family: Courier;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            font-size: 200%;
+        }
+        
+        h2 {
+            font-size: 25px;
+        }
+        
+        
+        p {
+            font-size: 20px;
+            font-family: Courier;
+        }
+        
+        h3 {
+            margin-top: 70px;
+        }
+        
+        h2,h3 {
+            font-family: Courier;
+            color: black;
+        }
