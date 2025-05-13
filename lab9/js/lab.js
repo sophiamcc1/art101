@@ -7,30 +7,30 @@ Date: 12 May 2025
 */
 
 //add button to challenge section
-$("#challenge").append("<button id='button-challenge'>Make Special</button>");
+$("#Challenge").append("<button id='button-Challenge'>Make Special</button>");
 
 //add a click listener to the challenge button
-$("#button-challenge").click(function(){
+$("#button-Challenge").click(function(){
     //now add (or subtract) the "special" class to the section
-    $("#challenge").toggleClass("special");
+    $("#Challenge").toggleClass("special");
 });
 
 
 //add button to problem section
-$("#problem").append("<button id='button-problem'>Make Special</button>");
+$("#Problems").append("<button id='button-Problems'>Make Special</button>");
 
 //add a click listener to the problem button
-$("#button-problem").click(function(){
+$("#button-Problems").click(function(){
     //now add (or subtract) the "special" class to the section
-    $("#problem").toggleClass("special");
+    $("#Problems").toggleClass("special");
 });
 
 
 //add button to result section
-$("#result").append("<button id='button-result'>Make Special</button>");
+$("#Results").append("<button id='button-Results'>Make Special</button>");
 
 //add a click listener to the result button
-$("#button-result").click(function(){
+$("#button-Results").click(function(){
     //now add (or subtract) the "special" class to the section
-    $("#result").toggleClass("special");
+    $("#Results").toggleClass("special");
 });
