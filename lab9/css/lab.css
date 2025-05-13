@@ -11,3 +11,10 @@
     margin-right: auto;
     width: 25%;
   }
+
+  .special {
+    background-color: rgb(255, 224, 236);
+    border: dotted 50px rgb(122, 0, 59);
+    color: rgb(245, 131, 207);
+    font-weight: bold;
+}
