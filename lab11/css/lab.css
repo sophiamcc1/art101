@@ -1,0 +1,55 @@
+ .text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #ff488e;
+  color: #ffbfd8;
+  font-family: Courier;
+  font-size: 0.8em;
+}
+
+  .results-code {
+  display: inline-block;
+  max-width: 40%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #cd5172;
+  color: #ffbfd8;
+  font-family: Courier;
+}
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #cd5172;
+    background-color: #e184a9;
+  }
+
+body{
+    background-color: #ff91bb;
+                 margin: 20px;
+            padding: 20px;
+            border: solid 10px #ff488e;
+             background-color: #ffbfd8;
+  }
+
+          #results {
+             padding: 10px;
+             margin-bottom: 10px;
+            background-color: #e184a9;
+        }
+
+        #subject {
+             padding: 10px;
+             margin-bottom: 10px;
+            background-color: #e184a9;
+        }
+
+        #challenges {
+             padding: 10px;
+             margin-bottom: 10px;
+            background-color: #e184a9;
+        }
