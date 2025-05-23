@@ -1,0 +1,25 @@
+body{
+    background-color: #ff91bb;
+                 margin: 20px;
+            padding: 20px;
+            border: solid 10px #ff488e;
+             background-color: #ffbfd8;
+  }
+
+          #results {
+             padding: 10px;
+             margin-bottom: 10px;
+            background-color: #e184a9;
+        }
+
+        #subject {
+             padding: 10px;
+             margin-bottom: 10px;
+            background-color: #e184a9;
+        }
+
+        #challenges {
+             padding: 10px;
+             margin-bottom: 10px;
+            background-color: #e184a9;
+        }
