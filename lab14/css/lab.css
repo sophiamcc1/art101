@@ -4,3 +4,20 @@
     border: solid 1px #cd5172;
     background-color: #e184a9;
   }
+
+  .row {
+    display: flex;
+}
+
+.row2 {
+    display: flex;
+}
+
+.column {
+    flex: 33.3%;
+    padding: 5px
+}
+
+#cheese {
+  padding-left: 100px
+}
