@@ -4,3 +4,9 @@
     border: solid 1px #cd5172;
     background-color: #e184a9;
   }
+
+  #output p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+  }

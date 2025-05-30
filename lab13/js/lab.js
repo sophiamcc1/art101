@@ -7,7 +7,7 @@
    Date: 26 May 2025
 */
 
-$("action").click(function() {
+$("#action").click(function(){
     // credit to W3Schools
     var outputElement = document.getElementById('output');
 
