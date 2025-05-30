@@ -7,6 +7,21 @@
    Date: 22 May 2025
 */
 
+// attach click handler to submit button
+$("#button").click(function() {
+    // get the value in the #input text box, assign to a variable name
+    let name = $("#input").val()
+    console.log("name");
+    // get the length of the name
+    let nameLength = name.length;
+    console.log("nameLength");
+    // get the spider
+    let spider = getSpider(nameLength);
+    console.log("house");
+    // add spider to output div
+    $("#output").html("<h1>" + spider + "</h1>");
+})
+
 // given a number, return a Spider-Man variant
 
 function getSpider(num) {
@@ -26,17 +41,3 @@ function getSpider(num) {
     return str;
 }
 
-// attach click handler to submit button
-$("#button").click(function() {
-    // get the value in the #input text box, assign to a variable name
-    let name = $("#input").val()
-    console.log("name");
-    // get the length of the name
-    let nameLength = name.length;
-    console.log("nameLength");
-    // get the spider
-    let spider = getSpider(nameLength);
-    console.log("house");
-    // add spider to output div
-    $("#output").html("<h1>" + house + "<h/1>");
-})

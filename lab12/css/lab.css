@@ -23,3 +23,15 @@ body{
              margin-bottom: 10px;
             background-color: #e184a9;
         }
+
+.row {
+    display: flex;
+}
+
+.row2 {
+    display: flex;
+}
+
+.column {
+    flex: 33.3%;
+}
